@@ -358,13 +358,6 @@
             </item>
            </layout>
           </item>
-          <item>
-           <widget class="QScrollBar" name="verticalScrollBar">
-            <property name="orientation">
-             <enum>Qt::Vertical</enum>
-            </property>
-           </widget>
-          </item>
          </layout>
         </item>
        </layout>
@@ -419,7 +412,7 @@
      <property name="title">
       <string>About Us</string>
      </property>
-     <addaction name="actionhttps_www_legionprogramming_com"/>
+     <addaction name="actionWebPage"/>
     </widget>
     <addaction name="actionDonate"/>
     <addaction name="menuAbout_Us"/>
@@ -542,7 +535,7 @@
     <string>Library Usage</string>
    </property>
   </action>
-  <action name="actionhttps_www_legionprogramming_com">
+  <action name="actionWebPage">
    <property name="text">
     <string>Home WebPage</string>
    </property>

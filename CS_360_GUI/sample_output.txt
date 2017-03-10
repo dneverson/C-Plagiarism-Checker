@@ -1,0 +1,45 @@
+Assesment of file %PATH% and %PATH%
+Summary:
+Total Similarity 20%
+break down:
+source code 10%
+comments 0%
+flow controle 70%
+library usage 50%
+variable names 20%
+syntax 50%
+
+loop structure 100%
+
+Assesments of similar code sections bellow
+
+------------------------------------------
+file 1
+
+int max(int a, int b){
+	if (a>b)
+		return a;
+	else
+		return b;
+}
+
+file 2
+
+int max(int x, int y){
+	if (x>y){
+		return y;
+	}else{
+		return x;
+	}
+}
+summary:
+total similarity 70%
+source code 100%
+comments --
+flow controle 100%
+library usage --
+variable names 0%
+syntax 20%
+--------------------------------------------
+file 1
+...

@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QDesktopServices>
 
 namespace Ui {
 class MainWindow;
@@ -23,7 +24,13 @@ private slots:
 
     void on_pushButton_start_clicked();
 
-    void actionhttps_www_legionprogramming_com();
+    //void QDesktopServices::openUrl(QUrl("https://sites.google.com/lcmail.lcsc.edu/legionprogramming/about-us"));
+
+    void on_actionDonate_triggered();
+
+    void on_actionImport_Library_triggered();
+
+    void on_actionWebPage_triggered();
 
 private:
     Ui::MainWindow *ui;
